@@ -1,0 +1,44 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100 vh;
+    width: 100 vw;
+}
+#container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#card {
+    display: flex;
+    min-width: 30vh;
+    max-width: 50vh;
+    flex-direction: column;
+    min-height: 30vh;
+    max-height: 50vh;
+    align-items: center;
+    background-color: rgba(5, 253, 108, 0.452)
+}
+#username {
+    margin: lem;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    background-color: transparent;
+}
+#password {
+    margin: lem;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    background-color: transparent;
+}
+.signinbutton: focus{
+    outline;
+}
